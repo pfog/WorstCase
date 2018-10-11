@@ -4,7 +4,7 @@ MyPython2.py
 Entry to Python worst case feasible solver, (practically) untimed portion.
 Syntax:
 
-$ python MyPython2.py CON INL RAW ROP
+$ python MyPython2.py CON INL RAW ROP TIMELIMIT
 '''
 
 # built in imports
@@ -20,6 +20,7 @@ con_name = args[1]
 inl_name = args[2]
 raw_name = args[3]
 rop_name = args[4]
+time_limit = args[5]
 sol1_name = 'solution1.txt'
 sol2_name = 'solution2.txt'
 
