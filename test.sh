@@ -24,9 +24,12 @@ sol2='worst_case_sol2.txt'
 sol_dir=$case_dir
 
 # run it
-python MyPython1.py "$con" "$inl" "$raw" "$rop"
+tlim1=600
+tlim2=2700
+smeth=0
+python MyPython1.py "$con" "$inl" "$raw" "$rop" $tlim1 $smeth
 cp "solution1.txt" "$sol_dir/$sol1"
-python MyPython2.py "$con" "$inl" "$raw" "$rop"
+python MyPython2.py "$con" "$inl" "$raw" "$rop" $tlim2 $smeth
 cp "solution2.txt" "$sol_dir/$sol2"
 rm "solution1.txt"
 rm "solution2.txt"
