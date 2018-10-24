@@ -21,7 +21,8 @@ inl_name = args[2]
 raw_name = args[3]
 rop_name = args[4]
 time_limit = args[5]
-score_method = args[6]
+#score_method = args[6]
+score_method = 0
 sol1_name = 'solution1.txt'
 sol2_name = 'solution2.txt'
 
